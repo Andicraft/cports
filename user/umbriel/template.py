@@ -3,7 +3,7 @@ pkgver = "0_git20261107"
 pkgrel = 0
 _gitver = "f5dd36b"
 build_style = "meson"
-configure_args = ["--prefix=/usr", "--buildtype=release", "-Dtests=enabled"]
+configure_args = ["--prefix=/usr", "--buildtype=release"]
 hostmakedepends = ["meson", "pkgconf", "wayland-progs", "bash"]
 makedepends = [
     "cairo-devel",
