@@ -17,7 +17,6 @@ makedepends = [
     "libxkbcommon-devel",
     "mesa-devel",
     "mesa-gbm-devel",
-    "mesa-gles2-libs",
     "nlohmann-json",
     "pango-devel",
     "pixman-devel",
